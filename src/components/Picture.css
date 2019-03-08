@@ -1,0 +1,18 @@
+.picture {
+    height: 685px;
+    width: 520px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.picture-button-panel {
+    height: 50px;
+    width:520px;
+
+}
+.picture img {
+    height: auto;
+    width: 520px;
+    margin-bottom: 20px;
+
+}
