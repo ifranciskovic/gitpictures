@@ -1,4 +1,5 @@
 import React, { Component} from 'react';
+import './images/8.jpg';
 import './Photo.css';
 class Photo extends Component {
     state={
