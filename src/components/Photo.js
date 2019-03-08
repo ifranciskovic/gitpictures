@@ -5,19 +5,19 @@ class Photo extends Component {
         style:{ borderRadius: '0px', 
                 opacity: '1', 
                 transform: 'scaleX(1)'},
-        buttonTitle1:'Round borders',
+        buttonTitle1:'Round photo',
         buttonTitle2:'Transparent photo',
         buttonTitle3:'Flip photo'
       }
 
     roundPhoto=() =>{
-        if (this.state.buttonTitle1==='Round borders') {
+        if (this.state.buttonTitle1==='Round photo') {
         this.setState({style:{borderRadius: '50%'}})
         this.setState({buttonTitle1:'Change to square'})
         } 
         if (this.state.buttonTitle1==='Change to square') {
         this.setState({style:{borderRadius: '0px'}})
-        this.setState({buttonTitle1:'Round borders'})
+        this.setState({buttonTitle1:'Round photo'})
         }
     }
     transparentPhoto=() => {
