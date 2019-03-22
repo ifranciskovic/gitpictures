@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import './images/8.jpg';
+import photo from './images/8.jpg';
 import './Photo.css';
 class Photo extends Component {
     state={
@@ -46,7 +46,7 @@ class Photo extends Component {
             <div className="photo">
                 <h2>Photo</h2>
                 <div className="photoCard">
-                    <img src="./images/8.jpg" style={this.state.style} alt="" />
+                    <img src={photo} style={this.state.style} alt="" />
                     <h5>Spring cherry blossom</h5>
                 </div>
                 <div className="photo-button-panel d-flex flex-row">
