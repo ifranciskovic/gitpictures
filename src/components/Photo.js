@@ -11,6 +11,8 @@ class Photo extends Component {
         buttonTitle3:'Flip photo'
       }
 
+
+      
     roundPhoto=() =>{
         if (this.state.buttonTitle1==='Round photo') {
         this.setState({style:{borderRadius: '50%'}})
